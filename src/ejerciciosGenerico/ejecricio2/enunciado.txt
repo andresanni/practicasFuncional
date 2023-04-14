@@ -1,0 +1,22 @@
+Supongamos que deseamos implementar una clase genérica Calculadora, 
+que permita realizar operaciones aritméticas básicas como suma, resta, multiplicación y división, 
+y que pueda trabajar con distintos tipos de números, incluyendo enteros (Integer), 
+números en coma flotante (Double) y números en coma flotante de precisión extendida (BigDecimal).
+
+Para ello, se nos pide que implementemos la clase Calculadora con los siguientes métodos:
+
+suma(T a, T b): retorna la suma de a y b.
+resta(T a, T b): retorna la resta de a y b.
+multiplicacion(T a, T b): retorna el producto de a y b.
+division(T a, T b): retorna el cociente de a y b.
+Donde T es el tipo de dato genérico, que debe ser una subclase de Number.
+
+Una vez implementada la clase Calculadora, 
+se nos pide que creemos una clase de prueba llamada EjemploCalculadora, 
+que utilice la clase Calculadora para realizar las siguientes operaciones:
+
+Sumar dos enteros (3 y 4).
+Restar dos números en coma flotante (3.5 y 1.2).
+Multiplicar dos enteros (5 y 6).
+Dividir dos números en coma flotante de precisión extendida (10.0 y 3.0).
+Por último, se deben imprimir los resultados de cada operación en consola.  

@@ -1,0 +1,17 @@
+Crea una clase genérica llamada Contenedor que tenga dos tipos de datos genéricos: T y U. 
+Ambos tipos de datos deben implementar o heredar de la interfaz Serializable. 
+La clase debe tener dos campos de clase: un array de elementos T llamado elementos y un elemento 
+de tipo U llamado identificador.
+
+La clase debe tener un constructor que reciba un array de elementos T y un objeto U como argumentos. 
+El constructor debe asignar el array de elementos y el identificador al campo correspondiente de la clase.
+
+La clase debe tener un método llamado serializar que no tenga argumentos y 
+que retorne un objeto del tipo byte[]. 
+Dentro de este método se debe serializar el array de elementos y 
+el identificador utilizando la clase ObjectOutputStream de Java. 
+El resultado de la serialización debe ser un objeto del tipo byte[].
+
+Finalmente, crea una clase llamada EjemploContenedor con un método main que instancie 
+la clase Contenedor con un array de elementos de tipo Integer y un objeto de tipo String como identificador.
+Luego llama al método serializar y muestra por consola el tamaño del array de bytes resultante.

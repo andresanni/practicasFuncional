@@ -1,0 +1,1 @@
+Escribir un programa que dado un arreglo de números enteros, encuentre la suma de todos los números pares del arreglo.
