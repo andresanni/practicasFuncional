@@ -1,0 +1,12 @@
+Consumer : recibe parametro pero no devuelve nada
+void accept(T t)
+------
+Function: recibe un parametro T y devuelve un R
+R apply(T t)
+------
+Predicate: recibe un parametro y devuelve un booleano
+boolean test(T t)
+------
+Supplier: no recibe parametros pero devuelve uno.
+T get()
+------
